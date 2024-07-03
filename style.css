@@ -1,0 +1,280 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.question{
+  height: 10px;
+  width: 12px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+top: 0;
+  padding:10px 20px;
+  
+}
+.tesla-label{
+  height: 12px;
+  width: 58px;
+}
+
+.header-middle ul{
+  
+  display: flex;
+  gap:20px;
+  font-weight: 700;
+  font-size: 7px;
+  
+  
+}
+.header-middle ul li a{
+  color: black;
+}
+.header-right ul{
+  display: flex;
+  gap: 10px;
+  margin-top: -5px;
+}
+.middle-menu,.right-icon{
+list-style: none;
+
+}
+a{
+  text-decoration: none;
+}
+
+.header-left{
+  margin-left: 0px;
+  width: 100px;
+  height: 16px;
+}
+
+.header-left img{
+  object-fit: contain;
+}
+.main-1{
+  text-align: center;
+  padding-top: 50px;
+  
+  
+
+}
+.main-1 a{
+  color: black;
+  border-bottom: .5px solid black;
+  
+  
+}
+.main-button{
+  margin-top: 160px;
+  width: 100%;
+  align-items: center;
+  height: 4px;
+  
+  
+  
+  
+}
+.first-section {
+  width: 100%;
+  height: 100vh; /* Ensures the section covers the entire viewport height */
+  background-image: url('Homepage-Model-3-Desktop-LHD-v2.jpg');
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the background image */
+}
+.Order,.Demo{
+  font-size: 7px;
+  width: 130px;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 2px;
+
+}
+.Demo{
+  background-color: black;
+  color: white;
+  margin-left: 8px;
+  
+}
+.first-h3{
+  font-weight: 700;
+  color: rgba(0, 0, 0, .8);
+}
+.first-h6{
+  font-weight: 700;
+  color: rgba(0, 0, 0, .8);
+  font-size: 12px;
+}
+.main-1 a{
+  color: rgba(0, 0, 0, .7);
+  font-size: 12px;
+  font-weight: 700;
+}
+.header-left,.header-right,.header-middle{
+  margin-top: 0px;
+}
+.second-section-text{
+  text-align: center;
+  margin-top: 0px;
+  
+  
+  
+
+}
+.second-section-button{
+  margin-top: 170px;
+  text-align: center;
+}
+.second-section{
+  width: 100%;
+  height: 100vh;
+  background-image: url('Homepage-Model-Y-Desktop-Global.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.second-text{
+  font-size: 7px;
+  padding-top: 4px;
+}
+.second-stext{
+  padding-top: 50px;
+  
+} 
+.first-h6s{
+  padding-top: 6px;
+  font-weight: 500;
+}
+.third-section{
+  width: 100%;
+  height: 100vh;
+  background-image: url('Homepage-Model-X-Desktop-v2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fourth-section{
+  width: 100%;
+  height: 100vh;
+  background-image: url('Homepage-Model-S-Desktop-v2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fifth-section{
+  width: 100%;
+  height: 100vh;
+  background-image: url('Homepage-SolarPanels-01-Desktop.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.first-h3Solar{
+  font-weight: 700;
+  color: rgb(255,255 ,255);
+  
+}
+.second-text-fifth a{
+  font-size: 7px;
+  padding-top: 4px;
+  color: white;
+  border-bottom: .5px solid white;
+}
+.sixth-section{
+  width: 100%;
+  height: 100vh;
+  background-image: url('Homepage-SolarRoof-Desktop-Global.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.first-h3Solarroof{
+  font-weight: 700;
+  color: rgb(0,0,0);
+}
+.second-text-sixth-p{
+  font-size: 7px;
+  padding-top: 4px;
+  color:black;
+}
+.seventh-section{
+  width: 100%;
+  height: 100vh;
+  background-image: url('Homepage-Accessories-Desktop-NA-APAC.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.last-section{
+  width: 100%;
+  height:75vh;
+  background-color:rgba(0, 0, 0, .9);
+  display: flex; /* Add this line */
+  justify-content: center; /* Add this line */
+  align-items: center; /* Add this line */
+  
+ 
+  
+  
+}
+.last-section-text p{
+  font-size: 7px;
+  color: white;
+  
+  font-family: Universal Sans Text;
+  width: 310px;
+  line-height: 1.5; 
+  margin-bottom: 10px;
+  text-align: center;
+
+  
+}
+.last-section-menu a{
+  font-size: 6px;
+  color:white;
+  text-decoration: none;
+ 
+}
+.li-last{
+  list-style: none;
+
+}
+.last-section-menu tesla-last{
+
+  width: 100%;
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: row;
+  
+  align-items: cente
+}
+.last-section-ul{
+  display: flex;
+  flex-direction: row;
+  gap:5px;
+  justify-content: center;
+  align-items: center;
+}
+.last-header1{
+  padding-left: 0;
+}
+.gas{
+  color: white;
+  border-bottom: .5px solid white;
+  transition: border-bottom .30s;
+}
+.gas:hover{
+  border-bottom: 1px solid white;
+
+}
+
+
